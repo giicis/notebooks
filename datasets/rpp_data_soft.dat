@@ -1,0 +1,22 @@
+param number_of_requirements := 5;
+param number_of_stakeholders := 2;
+param number_of_releases := 3;
+param pm := 50;
+param pd := 30;
+param f1 := -720;
+param f0 := -840;
+
+
+set prerequisite := (1, 5)  (1, 3);
+set interest := (1, 2) (1, 5) (2,1) (2, 3) (2,5);
+
+param cost :=
+1 40
+2 30
+3 20
+4 60
+5 10;
+
+param profit := 
+1 70
+2 50;
